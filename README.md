@@ -25,7 +25,8 @@ Install the required packages
 pip3 install –r requirements.txt
 ```
 
-1. Install sharkcop-server on your local machine
+
+**1. Install sharkcop-server on your local machine**
 
 Run
 ```
@@ -45,7 +46,8 @@ There are 3 statuses that could be returned:
 - -1 : The url is normal
 -  2 : Cannot fetch the url's information (May be dued to refusal of connection or server error)
 
-2. Setup sharkcop-extension (for Chrome)
+
+**2. Setup sharkcop-extension (for Chrome)**
 
   - Open Chrome Extension Manager (chrome://extensions/)
   - Enable Developer Mode
