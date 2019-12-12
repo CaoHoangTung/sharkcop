@@ -39,7 +39,6 @@ http://127.0.0.1:8080/api/check?url=https://abc.xyz
 ```
 
 You can test the api through a web interface at http://127.0.0.1:8080
-![Image description](https://imgur.com/F1plznV)
 
 There are 3 statuses that could be returned:
 -  1 : The url is phishing
