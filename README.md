@@ -20,22 +20,31 @@ Clone the repository
 git clone https://github.com/CaoHoangTung/sharkcop
 ```
 
+Install the required packages
+```
+pip3 install –r requirements.txt
+```
+
 1. Install sharkcop-server on your local machine
 
-  - Do this
-  - Do that
-
+Run
 ```
-Give the example
+python3 app.py
 ```
 
-And repeat
-
+The server will be up at 127.0.0.1:8080. 
+The RESTful API endpoint would be in this format:
 ```
-until finished
+http://127.0.0.1:8080/api/check?url=https://abc.xyz
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+You can test the api through a web interface at http://127.0.0.1:8080
+![Image description](https://imgur.com/F1plznV)
+
+There are 3 statuses that could be returned:
+-  1 : The url is phishing
+- -1 : The url is normal
+-  2 : Cannot fetch the url's information (May be dued to refusal of connection or server error)
 
 2. Setup sharkcop-extension (for Chrome)
 
