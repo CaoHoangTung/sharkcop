@@ -64,4 +64,4 @@ def add_header(r):
     return r
 
 if __name__ == "__main__":
-    app.run(threaded=True,debug=False,ssl_context='adhoc',port=8080)
+    app.run(threaded=True,debug=False,port=8080)
