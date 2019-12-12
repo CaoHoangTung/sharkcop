@@ -56,7 +56,7 @@ setInterval(async function () {
       linklist[index].status = "2";
       //Place model servr here
       let data = await $.ajax({
-        url: `https://127.0.0.1:8080/api/check?url=${item.url}`,
+        url: `http://127.0.0.1:8080/api/check?url=${item.url}`,
         context: document.body
       })
 
