@@ -1,0 +1,14 @@
+flask
+requests
+python-whois
+tldextract
+regex
+dnspython
+bs4
+mlxtend
+GoogleScraper
+numpy
+matplotlib
+sklearn
+pandas
+pyopenssl

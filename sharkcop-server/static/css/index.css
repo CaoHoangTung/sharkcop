@@ -1,0 +1,71 @@
+body {
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    background-image: url('../img/background.jpg');
+    /* background-repeat: no-repeat; */
+    max-height: 100vh;
+    width: 100%;
+    background-size: cover;
+  } 
+
+.pane{
+	background-color: black;
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.top-header{
+	color: white;
+	text-align: center;
+	padding-top: 10vh
+}
+
+.container{
+	position: relative;
+	padding-top: 20vh;
+	/* line-height: 50vh; */
+  	margin:0px;
+  	max-width: 100%;
+  	/* height: 100vh; */
+}
+
+.white-text{
+	color: white
+}
+
+.form-container{
+	margin: 0 auto;
+	text-align: center;
+	/* min-height: 0vh; */
+}
+
+.middle-input-container{
+	display: inline !important;
+}
+
+.middle-input{
+	width: 60% !important;
+	height: 60px;
+}
+
+.middle-btn{
+	width: 20% !important;
+	margin: 0 !important;
+	height: 60px;
+}
+
+.middle-form {
+	display: inline-block;
+	width: 80vw;
+}
+
+#report{
+	background: white;
+	width: 100%;
+	min-height: 0px;
+	border-radius: 5px;
+	opacity: 0.9;
+}

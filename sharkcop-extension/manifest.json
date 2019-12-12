@@ -1,0 +1,18 @@
+{
+    "name": "SharkCop",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Phishing detection AI",
+    "content_scripts": [{
+        "js": ["contentscript.js"],
+        "matches": ["https://www.facebook.com/*"]
+    }],
+    "web_accessible_resources": ["script.js"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs", "<all_urls>", "http://*/*", "storage","webRequest"]
+  }
