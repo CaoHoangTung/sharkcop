@@ -1,8 +1,8 @@
 # Sharkcop - A machine learning tool to detech phishing URLs
 
 Sharkcop has 2 main parts:
-1. Sharkcop-server: A flask webserver which provide a restful api to fetch an url's information
-2. Sharkcop-extension: A Chrome extension which interact with sharkcop-server to detech phishing URLs on Facebook and Messenger
+1. **Sharkcop-server**: A flask webserver which provide a restful api to fetch an url's information
+2. **Sharkcop-extension**: A Chrome extension which interact with sharkcop-server to detech phishing URLs on Facebook and Messenger
 
 ## Getting Started
 
@@ -15,11 +15,15 @@ Python 3 >
 ```
 
 ### Installing
+Clone the repository
+```
+git clone https://github.com/CaoHoangTung/sharkcop
+```
+
 1. Install sharkcop-server on your local machine
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+  - Do this
+  - Do that
 
 ```
 Give the example
@@ -35,7 +39,11 @@ End with an example of getting some data out of the system or using it for a lit
 
 2. Setup sharkcop-extension (for Chrome)
 
-
+  - Open Chrome Extension Manager (chrome://extensions/)
+  - Enable Developer Mode
+  - Click 'Load unpacked' and select the directory **'sharkcop-extension'** inside our project root directory
+  - Try it on facebook
+  
 ## Built With
 
 * Python
