@@ -46,7 +46,7 @@ There are 3 statuses that could be returned:
 - -1 : The url is normal
 -  2 : Cannot fetch the url's information (May be dued to refusal of connection or server error)
 
-
+![Image description](/readme/4.png)
 **2. Setup sharkcop-extension (for Chrome)**
 
   - Open Chrome Extension Manager (chrome://extensions/)
