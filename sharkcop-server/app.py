@@ -22,6 +22,7 @@ def check():
     # return -1/2/1 -> normal / undetectable / phishing
 
     submit_url = request.args["url"]
+    submit_url = submit_url.replace(" ","")
     if not Checker.check_connection(submit_url):
         print("Connection unavailable")
         return "2" # unable to detech

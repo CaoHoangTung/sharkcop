@@ -49,19 +49,23 @@ var lastLoad = -1;
 
 setInterval(async function () {
   linklist = JSON.parse(localStorage.getItem("link"));
+
   for (let index in linklist) {
     item = linklist[index]
     // console.warn(item);
     if (item.status == "0") {
+      console.warn(" fetching",item.url);
       linklist[index].status = "2";
+
+      await localStorage.setItem("link", JSON.stringify(linklist));
+      
       //Place model servr here
       let data = await $.ajax({
         url: `http://127.0.0.1:8080/api/check?url=${item.url}`,
         context: document.body
-      })
-
+      });
       
-      item.status = String(data);
+      linklist[index].status = String(data);
       await localStorage.setItem("link", JSON.stringify(linklist));
 
       if (String(data) == "1") {
