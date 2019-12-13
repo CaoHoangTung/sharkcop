@@ -36,7 +36,8 @@ cd sharkcop-server
 python3 app.py
 ```
 
-![Image description](/readme/2.png)
+![Server is up and running](/readme/2.png)
+
 The server will be up at 127.0.0.1:8080. 
 The RESTful API endpoint would be in this format:
 ```
@@ -50,7 +51,7 @@ There are 3 statuses that could be returned:
 - -1 : The url is normal
 -  2 : Cannot fetch the url's information (May be dued to refusal of connection or server error)
 
-![Image description](/readme/4.png)
+![The test webserver](/readme/4.png)
 **2. Setup sharkcop-extension (for Chrome)**
 
   - Open Chrome Extension Manager (chrome://extensions/)
