@@ -28,11 +28,15 @@ pip3 install –r requirements.txt
 
 **1. Install sharkcop-server on your local machine**
 
-Run
+At the project root directory, run
+```
+cd sharkcop-server
+```
 ```
 python3 app.py
 ```
 
+![Image description](/readme/2.png)
 The server will be up at 127.0.0.1:8080. 
 The RESTful API endpoint would be in this format:
 ```
@@ -58,6 +62,10 @@ There are 3 statuses that could be returned:
 
 * Python
 * Javascript
+
+## Techniques
+
+* We use Machine Learning to detect Phishing Website, specifically SVM (Support Vector Machine) which is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data, the algorithm outputs an optimal hyperplane which categorizes new examples.
 
 ## Authors
 
