@@ -57,8 +57,9 @@ There are 3 statuses that could be returned:
   - Open Chrome Extension Manager (chrome://extensions/)
   - Enable Developer Mode
   - Click 'Load unpacked' and select the directory **'sharkcop-extension'** inside our project root directory
-  - Try it on facebook
-![The test webserver](/readme/6.png)
+  - Try it on facebook. The extension will highligh phishing URLs
+  
+![The extension](/readme/6.PNG)
 
 ## Built With
 
@@ -68,7 +69,8 @@ There are 3 statuses that could be returned:
 ## Techniques
 
 * We use Machine Learning to detect Phishing Website, specifically SVM (Support Vector Machine) which is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data, the algorithm outputs an optimal hyperplane which categorizes new examples.
-![The test webserver](/readme/7.png)
+
+![SVM](/readme/7.png)
 
 
 ## Authors
