@@ -20,11 +20,6 @@ Clone the repository
 git clone https://github.com/CaoHoangTung/sharkcop
 ```
 
-Install the required packages
-```
-pip3 install –r requirements.txt
-```
-
 
 **1. Install sharkcop-server on your local machine**
 
@@ -32,6 +27,12 @@ At the project root directory, run
 ```
 cd sharkcop-server
 ```
+
+Install the required packages
+```
+pip3 install –r requirements.txt
+```
+
 ```
 python3 app.py
 ```
